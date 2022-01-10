@@ -1,0 +1,81 @@
+library(dplyr)
+
+library(ggplot2)
+
+library(tidyverse)
+
+#  Read in the MechaCar_mpg.csv file.
+Data.D1 <- read.csv(file="MechaCar_mpg.csv")
+
+# Plot a scatter plot
+ggplot(Data.D1, aes(mpg, AWD)) + 
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE)
+
+# Perform linear regression
+reg <- lm(AWD ~ mpg, data=Data.D1)
+summary(reg)
+
+# Get the r-sqaured value. 
+summary(reg)$r.squared
+
+# Plot a scatter plot
+ggplot(Data.D1, aes(mpg, ground_clearance)) + 
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE)
+
+# Perform linear regression
+reg <- lm(ground_clearance ~ mpg, data=Data.D1)
+summary(reg)
+
+# Get the r-sqaured value. 
+summary(reg)$r.squared
+
+# Plot a scatter plot
+ggplot(Data.D1, aes(mpg, spoile_angle)) + 
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE)
+
+# Perform linear regression
+reg <- lm(spoile_angle ~ mpg, data=Data.D1)
+summary(reg)
+
+# Get the r-sqaured value. 
+summary(reg)$r.squared
+
+# Plot a scatter plot
+ggplot(Data.D1, aes(mpg, vehicle_weight)) + 
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE)
+
+# Perform linear regression
+reg <- lm(vehicle_weight ~ mpg, data=Data.D1)
+summary(reg)
+
+# Get the r-sqaured value. 
+summary(reg)$r.squared
+
+# Plot a scatter plot
+ggplot(Data.D1, aes(mpg, vehicle_length)) + 
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE)
+
+# Perform linear regression
+reg <- lm(vehicle_length ~ mpg, data=Data.D1)
+summary(reg)
+
+# Get the r-sqaured value. 
+summary(reg)$r.squared
+
+#  Read in the MechaCar_mpg.csv file.
+Data.D2 <- read.csv(file="Suspension_Coil.csv")
+
+#DELIVARABLE 2
+
+#  Read in the MechaCar_mpg.csv file
+Data.D2 <- read.csv(file="Suspension_Coil.csv")
+
+total_summary <- Data.D2 %>% summarize(PSI_mean=mean(PSI), PSI_median=median(PSI), PSI_variance=var(PSI), PSI_SD=sd(PSI))  #create summary table
+
+lot_summary <- Data.D2 %>% group_by(Manufacturing_Lot) %>% summarize(PSI_mean=mean(PSI), PSI_median=median(PSI), PSI_variance=var(PSI), PSI_SD=sd(PSI))
+
