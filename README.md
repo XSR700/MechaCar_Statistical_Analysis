@@ -32,7 +32,7 @@ The first image is the result of a one sample T-test across all suspension coil 
 
 This next image shows the suspension coil one sample t-test for each lot. The p values for lot 1 and 2 are higher than 0.05 and thus we do not have evidence to reject the null hypothesis. However the p value for lot 3 is 0.041 and thus we have evidence to reject the null hypothesis. Lot 3 has statistical evidence of difference between  observed sample mean and population mean. 
 
-![Lot Summary](https://github.com/XSR700/MechaCar_Statistical_Analysis/blob/main/Lot_Summary.PNG)
+![T-Test on each lot](https://github.com/XSR700/MechaCar_Statistical_Analysis/blob/main/Suspension%20coil%20t-test%20of%20each%20lot.PNG)
 
 
 
