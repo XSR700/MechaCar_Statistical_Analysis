@@ -15,8 +15,13 @@ given the p-value we can reject thr null hypothesis and say that there is statis
 
 ## Summary Statistics on Suspension Coils
 
-![MPG vs Vehicle Length](https://github.com/XSR700/MechaCar_Statistical_Analysis/blob/main/mpg%20vs%20vehicle%20length.PNG)
+Based on the image of statistical results below, we see that the PSI variance is 62.3 across all lots. This falls below the required 100 PSI vaiance and meets the MechaCar suspension specification. 
 
+![Total Summar](https://github.com/XSR700/MechaCar_Statistical_Analysis/blob/main/Total_Summary.PNG)
+
+The next image shows the statistical summary of each individual lots. The results are ordered lot 1, lot 2, and lot 3 respectfully. The 4th row describes the PSI variance of each lot. Lots 1 & 2 show very little variance. Lot 1 seems to have the least variance with 0.98. However lot 3 has a PSI variance of 170.29 and does not meet the MechaCar suspension specification. 
+
+![Lot Summary](https://github.com/XSR700/MechaCar_Statistical_Analysis/blob/main/Lot_Summary.PNG)
 
 
 
