@@ -13,3 +13,10 @@ Based on the graph the slope of the linear model is not considered zero.
 given the p-value we can reject thr null hypothesis and say that there is statistically significant propobility that vehicle length does have an effect on vehicle mpg. 
 
 
+## Summary Statistics on Suspension Coils
+
+![MPG vs Vehicle Length](https://github.com/XSR700/MechaCar_Statistical_Analysis/blob/main/mpg%20vs%20vehicle%20length.PNG)
+
+
+
+
