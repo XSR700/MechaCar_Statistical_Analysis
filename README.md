@@ -10,7 +10,7 @@ The variables/coefficients that provided the most non-random amount of variance 
 Based on the graph the slope of the linear model is not considered zero. 
 
 
-given the p-value we can reject thr null hypothesis and say that there is statistically significant propobility that vehicle length does have an effect on vehicle mpg. 
+given the p-value we can reject the null hypothesis and say that there is statistically significant propobility that vehicle length does have an effect on vehicle mpg. 
 
 
 ## Summary Statistics on Suspension Coils
