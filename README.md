@@ -34,5 +34,14 @@ This next image shows the suspension coil one-sample t-test for each lot. The p-
 
 ## Study Design: MechaCar vs Competition
 
+In order for the MechaCar to be sucessful, we need to look at what makes other vehicles post production. This process will involve hypothesis testing on multiple variables. examining one variable is not enough for a complex product with numerous statistics crossing each other. For example, horsepower can have a negative correlation on a quarter mile time of a car while the weight of the car is actualy impacting this correlation. 
+
+For this study I would start with looking at the most sold vehicles in the lot. Then determine which variable stands outs from majority of the vehiles. For example if safety rating was highest among these vehicles then this would be the dependent variable. 
+
+From here on I will take the example of safety rating varible to explain the rest of the study. Safety rating will be tested against sales. The null hypothesis statement would be "Safety rating does not make a difference on how much the car is sold". The alternative hypothesis would be "Safety rating does make a difference on how much the car is sold".
+
+I would then peform two seperate statistical tests for linear regression line and calculate the p-values along with r squared values. The first test would be the linear regression line between safety rating and sales. The second test would be multiple linear regression. The multiple linear regression test would be between other potentially impacting factors such as mpg, vehicle cost, horsepower, and acceleration time. These additional variables are common metrics for consumers when choosing a car. Therefore they are expected to statistically effect the correlation between safety rating and sales. I would look at each independent variable to determine if there is a significant relationship with the dependent variable (safety rating). once we have evaluated each independent variable, I'll evaluate the r-squared value of the model to determine the model sufficiently predicts our dependent variable.
+
+The data needed for this study would be the sale numbers of each individual car model in the dealership. A bigger sample size is better. Additionally the safety rating for each model must be recorded. Each rating must have identical process procedures that established the final rating on each vehicle. 
 
 
