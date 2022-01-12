@@ -32,5 +32,7 @@ This next image shows the suspension coil one-sample t-test for each lot. The p-
 
 ![T-Test on each lot](https://github.com/XSR700/MechaCar_Statistical_Analysis/blob/main/Suspension%20coil%20t-test%20of%20each%20lot.PNG)
 
+## Study Design: MechaCar vs Competition
+
 
 
