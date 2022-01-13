@@ -79,3 +79,15 @@ total_summary <- Data.D2 %>% summarize(PSI_mean=mean(PSI), PSI_median=median(PSI
 
 lot_summary <- Data.D2 %>% group_by(Manufacturing_Lot) %>% summarize(PSI_mean=mean(PSI), PSI_median=median(PSI), PSI_variance=var(PSI), PSI_SD=sd(PSI))
 
+# DELIVERABLE 3
+
+t.test(log10(Suspension_Coil$PSI),mu=1500) #compare sample versus population means
+
+t.test(subset(Suspension_Coil, Manufacturing_Lot=="Lot1")$PSI, mu=1500)
+
+t.test(subset(Suspension_Coil, Manufacturing_Lot=="Lot2")$PSI, mu=1500)
+
+t.test(subset(Suspension_Coil, Manufacturing_Lot=="Lot3")$PSI, mu=1500)
+
+
+
