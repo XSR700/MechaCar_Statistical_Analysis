@@ -22,9 +22,9 @@ The next image shows the statistical summary of each lot. The results are ordere
 
 ## T-Tests on Suspension Coils
 
-The first image is the result of a one-sample T-test across all suspension coil PSI readings. With a p-value significantly less than 0.05 we can say that we have evidence to reject the null hypothesis and that there is a statistical difference between the observed sample mean and population mean. 
+The first image is the result of a one-sample T-test across all suspension coil PSI readings. With a p-value more than 0.05 we can say that we dont have evidence to reject the null hypothesis and that there is no statistical difference between the observed sample mean and population mean. 
 
-![T-test on all](https://github.com/XSR700/MechaCar_Statistical_Analysis/blob/main/Suspension%20coil%20t-test.PNG)
+![T-test on all](https://github.com/XSR700/MechaCar_Statistical_Analysis/blob/main/Suspension%20coil%20t-test%20Redo.PNG)
 
 This next image shows the suspension coil one-sample t-test for each lot. The p-value for lots 1 and 2 are higher than 0.05 and thus we do not have evidence to reject the null hypothesis. However, the p-value for lot 3 is 0.041 and thus we have evidence to reject the null hypothesis. Lot 3 has statistical evidence of a difference between the observed sample mean and population mean. 
 
