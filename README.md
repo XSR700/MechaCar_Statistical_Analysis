@@ -3,13 +3,11 @@
 
 ## Linear Regression to Predict MPG
 
-The variables/coefficients that provided the most non-random amount of variance were when comparing MPG with vehicle length. The image below represents the statistical analysis and linear regression graph of MPG vs. Vehicle Length. this variable showed the lowest p-value (0.0000026).
+The image below shows results of a statistical analysis using RStudio. This test shows multiple linear regression analysis of vehicle MPG versus vehicle length, weight, spoiler angle, ground clearance, and all wheel drive configuration. MPG is the independant variable.  
 
 ![Multiple Linear Regression Results](https://github.com/XSR700/MechaCar_Statistical_Analysis/blob/main/Multiple_Linear_Reg_Deliverable1.PNG)
 
-
-given the p-value we can say the slope of the linear model is not zero and can reject the null hypothesis and say that there is statistically significant probability that vehicle length does affect vehicle mpg. 
-
+Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model. According to our results, vehicle length and ground clearance (as well as intercept) are statistically unlikely to provide random amounts of variance to the linear model. In other words the vehicle length and ground clearance have a significant impact on MPG.
 
 ## Summary Statistics on Suspension Coils
 
