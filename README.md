@@ -5,7 +5,7 @@
 
 The variables/coefficients that provided the most non-random amount of variance were when comparing MPG with vehicle length. The image below represents the statistical analysis and linear regression graph of MPG vs. Vehicle Length. this variable showed the lowest p-value (0.0000026).
 
-![MPG vs Vehicle Length](https://github.com/XSR700/MechaCar_Statistical_Analysis/blob/main/mpg%20vs%20vehicle%20length.PNG)
+![Multiple Linear Regression Results](https://github.com/XSR700/MechaCar_Statistical_Analysis/blob/main/Multiple_Linear_Reg_Deliverable1.PNG)
 
 
 given the p-value we can say the slope of the linear model is not zero and can reject the null hypothesis and say that there is statistically significant probability that vehicle length does affect vehicle mpg. 
